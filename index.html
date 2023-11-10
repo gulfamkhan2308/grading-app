@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading checking app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+
+    <form onsubmit="gradecheck(event)">
+        <h1>Grading checking app</h1>
+    Enter your percentage 0 to 100 %: <input id="marksinput"   type="number" required step=".01">
+    <br>
+    <button>View Grade</button>
+
+    <h1 id="resultWindow"></h1>
+    </form>
+    
+
+    <script src="script.mjs"> </script>
+</body>
+</html>

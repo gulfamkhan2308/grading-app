@@ -1,0 +1,59 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(img/books.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: 100% 100%;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    width: 400px;
+    text-align: center;
+}
+
+/* h1 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+} */
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+#resultWindow {
+    border: solid 2px black;
+    color: #271414;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
